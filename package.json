@@ -1,0 +1,33 @@
+{
+  "name": "cordova-plugin-iChanganCommon",
+  "version": "0.1.0",
+  "description": "Cordova iChanganCommon Plugin",
+  "cordova": {
+    "id": "cordova-plugin-iChanganCommon",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/contentfu/cordova-plugin-iChanganCommon.git"
+  },
+  "keywords": [
+    "cordova",
+    "iChanganCommon",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Rusted",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/contentfu/cordova-plugin-iChanganCommon/issues"
+  },
+  "homepage": "https://github.com/contentfu/cordova-plugin-iChanganCommon#readme"
+}
