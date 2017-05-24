@@ -1,4 +1,4 @@
-cordova.define("cordova-plugin-iChanganCommon", function(require, exports, module) { 	var exec = require('cordova/exec');
+       var exec = require('cordova/exec');
        module.exports = {
        download : function(url,success, error) {
                exec(success, error, "iChanganCommon", "download", [url]);
@@ -25,5 +25,3 @@ cordova.define("cordova-plugin-iChanganCommon", function(require, exports, modul
                exec(success, error, "iChanganCommon", "scanBarCode");
         },
    };
-               
-});
